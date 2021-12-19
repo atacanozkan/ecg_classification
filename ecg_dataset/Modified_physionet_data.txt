@@ -1,0 +1,34 @@
+Data Source:
+
+The files in ECGData.mat are modified copies of the files from the following 3 PhysioNet databases:
+MIT-BIH Arrhythmia Database [2],[3]  https://www.physionet.org/physiobank/database/mitdb/
+MIT-BIH Normal Sinus Rhythm Database [2] https://www.physionet.org/physiobank/database/nsrdb/
+The BIDMC Congestive Heart Failure Database [2],[1] https://www.physionet.org/physiobank/database/chfdb/
+
+All raw data files were obtained from the PhysioBank ATM website https://physionet.org/cgi-bin/atm/ATM with the following output settings:
+Length: 1 Hour
+Time format: Samples
+Data format: Standard
+
+Data Description:
+ECGData is a structure array with two fields: Data and Labels. Data is a 162x65536 matrix. Labels is a 162x1 cell array of character vectors.
+
+The first 96 rows of ECGData.Data (162x65536 matrix) with corresponding labels in ECGData.Labels of 'ARR' are modified copies of the two ECG recordings in the 48 data files contained in the MIT-BIH Arrhythmia Database.
+The next 30 rows of ECGData.Data with corresponding labels in ECGData.Labels of 'CHF' are modified copies of the two ECG recordings in the 15 data files contained in The BIDMC Congestive Heart Failure Database.
+The final 36 rows of ECGData.Data with corresponding labels in ECGData.Labels of 'NSR' are modified copies of the two ECG recordings in the 18 data files contained in the MIT-BIH Normal Sinus Rhythm Database.
+
+Processing Applied to PhysioNet Source Files:
+
+The following processing steps were applied to each raw data file in the three PhysioNet databases to construct the data in ECGData.Data.
+1.) The scaling defined in the PhysioNet .info files for each PhysioNet data file was applied to each raw data file.
+2.) The data were resampled to a common rate of 128 hertz.
+3.) Each data file consisting of two ECG recordings was separated into two separate data records.
+4.) The data length was truncated to a common length of 65536 samples.
+
+References
+
+1. Baim DS, Colucci WS, Monrad ES, Smith HS, Wright RF, Lanoue A, Gauthier DF, Ransil BJ, Grossman W, Braunwald E. Survival of patients with severe congestive heart failure treated with oral milrinone. J American College of Cardiology 1986 Mar; 7(3):661-670.
+2. Goldberger AL, Amaral LAN, Glass L, Hausdorff JM, Ivanov PCh, Mark RG, Mietus JE, Moody GB, Peng C-K, Stanley HE. PhysioBank, PhysioToolkit,and PhysioNet: Components of a New Research Resource for Complex Physiologic Signals. Circulation 101(23):e215-e220 [Circulation Electronic Pages; http://circ.ahajournals.org/content/101/23/e215.full]; 2000 (June 13).
+3. Moody GB, Mark RG. The impact of the MIT-BIH Arrhythmia Database. IEEE Eng in Med and Biol 20(3):45-50 (May-June 2001). (PMID: 11446209)
+
+
