@@ -4,9 +4,9 @@ Classification of ecg datas for disease detection
 
 ![Slayt2](https://user-images.githubusercontent.com/61898743/146691583-9e6abe42-9fd3-43d5-ac96-286bfa24fdc4.jpg)
 ![Slayt3](https://user-images.githubusercontent.com/61898743/146691589-200d3bb0-8934-470c-b94a-1eb6b2f6d1e8.JPG)
-![Slayt4](https://user-images.githubusercontent.com/61898743/146691591-5fe3e967-554f-4588-9743-aef7c03488f8.JPG)
+![Slayt4](https://user-images.githubusercontent.com/61898743/146793538-8a7bdbe8-273c-459c-9a2d-6906e9dab0e4.jpg)
 ![Slayt5](https://user-images.githubusercontent.com/61898743/146691592-a9a1e13d-4dae-42bf-93e8-0b9d3570965a.JPG)
-![Slayt6](https://user-images.githubusercontent.com/61898743/146691593-69822bbd-13af-4b9f-bc75-92ddbdd12cda.JPG)
+![Slayt6](https://user-images.githubusercontent.com/61898743/146793570-07c1d230-17b4-4400-b339-29af559af0f4.jpg)
 ![Slayt7](https://user-images.githubusercontent.com/61898743/146691596-5c3367e9-f24b-44b4-9ee4-468fe6797bce.JPG)
 ![Slayt8](https://user-images.githubusercontent.com/61898743/146691602-ecce07c4-f05d-4a17-90cb-7f720731feeb.JPG)
 ![Slayt9](https://user-images.githubusercontent.com/61898743/146691614-fff2cfd7-6f53-43b3-b3af-2b57a014724b.JPG)
